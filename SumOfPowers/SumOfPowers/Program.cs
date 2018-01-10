@@ -10,7 +10,7 @@ namespace SumOfPowers
     {
         static void Main(string[] args)
         {
-            HashSet<HashSet<int>> workingValues = ListOfInts(100, 4);
+            HashSet<HashSet<int>> workingValues = ListOfInts(1000, 3);
             printWorkingSets(workingValues);
             Console.Read();
         }
